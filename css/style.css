@@ -1166,3 +1166,57 @@ a {
 
 #lightgallery .item {
   margin-bottom: 30px; }
+
+  /* Remove Later 
+  /*
+  /*
+  /*
+  /* */
+  .section__intro {
+    background: url("../images/bg.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .section__intro--text {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .section__intro--text__name {
+    color: white;
+    font-size: 88px;
+    padding: 5px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 500px) {
+    .section__intro--text__name {
+      font-size: 40px;
+    }
+  }
+  .section__intro--text__sub {
+    display: block;
+    font-size: 40px;
+    color: white;
+  }
+
+  @media screen and (max-width: 500px) {
+    .section__intro--text__sub {
+      font-size: 25px;
+    }
+  }
+
+  .section__intro--text__btn-grp {
+    padding: 20px;
+  }
+
+  .section__intro--text__btn-grp > a {
+    font-size: 40px;
+    color: white;
+  }
+  
