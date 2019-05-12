@@ -1173,11 +1173,16 @@ a {
   /*
   /* */
   .section__intro {
-    background: url("../images/bg.jpg") no-repeat center fixed;
+    background: url("../images/bg.png") no-repeat center fixed;
     background-size: cover;
     height: 100vh;
     padding: 0;
     line-height: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
   }
 
   .section__intro--text {
@@ -1189,7 +1194,8 @@ a {
   }
   .section__intro--text__name {
     color: white;
-    font-size: 88px;
+    text-shadow: 0px 6px 20px #481810;
+    font-size: 120px;
     padding: 5px;
     font-weight: 300;
     margin: 0 auto;
@@ -1220,3 +1226,12 @@ a {
     color: white;
   }
   
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  /* Transparent Navbar */
+
+  .site-navbar-alternate {
+    background-color: transparent;
+  }
