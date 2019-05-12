@@ -1235,3 +1235,13 @@ a {
   .site-navbar-alternate {
     background-color: transparent;
   }
+
+  .site-navbar-alternate .site-navigation .site-menu > li > a {
+    color: white;
+    text-shadow: 0px 6px 20px #481810;
+  }
+
+  .site-menu-alternate[data-class="social"] a {
+    color: white;
+    text-shadow: 0px 6px 20px #481810;
+  }
