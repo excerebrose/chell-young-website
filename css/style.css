@@ -109,7 +109,7 @@ a {
     transform: translateX(-50%);
     content: "";
     left: 50%;
-    bottom: 0;
+    bottom: -20px;
     position: absolute;
     width: 100px;
     height: 1px;
